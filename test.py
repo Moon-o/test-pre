@@ -10,6 +10,8 @@ target = 12
 
 @flow(log_prints=True)
 def twoSum(arr, t):
+    logger = get_run_logger()
+    logger.info("Start date:")
     index_dict = {}
     length = len(arr)
     index = 0
