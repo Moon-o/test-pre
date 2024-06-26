@@ -19,5 +19,6 @@ def twoSum(arr, t):
             return index_dict[t - arr[index]], index
         index_dict[arr[index]] = index
         index += 1
-
-print(twoSum(num_list, target))
+    print("hello")
+if __name__ == "__main__":
+                twoSum()
